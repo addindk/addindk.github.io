@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+
+
+.mdl-layout__header {
+    background-color: $gray-900;
+}
+img.mdl-layout__title {
+
+}
+$spacing-unit:     30px;
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+.card-wide {
+    max-width: 900px;
+}
+.mdl-card__title {
+  color: #fff;
+  height: 176px;
+}
+.mdl-card__menu {
+  color: #fff;
+}
+body {
+    background-color: $gray-700;
+}
+@import
+        "monakai"
+        //"syntax-highlighting"
+;
